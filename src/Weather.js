@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   let [city, setCity] = useState("");
@@ -22,6 +23,7 @@ export default function Weather(props) {
         setWeather({
           city: response.data.name,
           country: response.data.sys.country,
+          date: new Date(response.data.dt * 1000),
           temperature: response.data.main.temp,
           description: response.data.weather[0].description,
           humidity: response.data.main.humidity,
@@ -79,13 +81,16 @@ export default function Weather(props) {
       <div className="row current-info-row">
         <div className="col-3 current-city">
           {weather.city}, {weather.country}
-          <div className="date-time" id="date"></div>
+          <div className="date-time" id="date">
+            <FormattedDate date={weather.date} />
+          </div>
           <div className="temp">
             <span className="units active" id="celsius-link">
-              {Math.round(weather.temperature) || 23}°C
+              {Math.round(weather.temperature) || 23} °C{" "}
             </span>
             <span className="units">|</span>
             <span className="units" id="fahrenheit-link">
+              {" "}
               °F
             </span>
           </div>
