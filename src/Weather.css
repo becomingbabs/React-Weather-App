@@ -1,0 +1,152 @@
+/** @format */
+
+img {
+  max-width: 220px;
+  height: 160px;
+  opacity: 0.8;
+  margin: 20px 0 0 15px;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+hr {
+  border: 1px solid rgba(221, 153, 221, 0.3);
+}
+
+.top-row {
+  height: 175px;
+}
+
+.form {
+  text-align: center;
+  margin: 50px 0 0 30px;
+  font-size: 25px;
+  word-spacing: 30px;
+  max-width: 400px;
+  opacity: 0.8;
+}
+
+.img {
+  max-width: 200px;
+  height: 120px;
+}
+
+.button {
+  font-size: 15px;
+  margin: 30px 0 0 10px;
+  opacity: 0.8;
+  border-radius: 7px;
+  transition: all 150ms ease-in-out;
+  background: transparent;
+  border: 1px solid rgb(85, 97, 102);
+}
+
+.button:hover {
+  color: white;
+  opacity: 0.8;
+  background: rgba(219, 184, 220, 0.8);
+  border: 1px solid white;
+}
+
+.quote {
+  text-align: center;
+  padding: 0;
+  font-size: 20px;
+  margin: 40px 5px 10px 50px;
+  opacity: 0.7;
+  vertical-align: middle;
+}
+
+.current-info-row {
+  height: 150px;
+}
+
+.current-city {
+  font-size: 25px;
+  text-align: center;
+  margin: 0px 0 0 50px;
+}
+
+.date-time {
+  opacity: 0.8;
+  font-size: 17px;
+}
+
+.temp {
+  font-size: 25px;
+  margin: 15px 0 0 40px;
+}
+
+.units {
+  text-decoration: none;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.active {
+  color: black;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+}
+
+.icon-description {
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.9;
+  margin: 0 0 0 15px;
+  width: 250px;
+}
+
+.current-forecast {
+  text-align: center;
+  margin: 25px 0 0 15px;
+  padding: 25px 0 0 0;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.col-2 img {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  opacity: 0.7;
+}
+
+.col-2 {
+  padding: 0;
+  margin: 20px 0 20px 0;
+}
+
+#search-box {
+  border-radius: 5px;
+  border: 1px solid rgb(85, 97, 102);
+}
+
+#icon {
+  font-size: 15px;
+  margin: 0 auto;
+  height: 110px;
+  width: 110px;
+  opacity: 0.7;
+}
+
+#description:first-letter {
+  text-transform: capitalize;
+}
+
+#forecast {
+  text-align: center;
+  opacity: 0.8;
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+}
