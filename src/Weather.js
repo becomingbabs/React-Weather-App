@@ -86,8 +86,7 @@ export default function Weather(props) {
             </span>
             <span className="units">|</span>
             <span className="units" id="fahrenheit-link">
-              {" "}
-              °F{" "}
+              °F
             </span>
           </div>
         </div>
