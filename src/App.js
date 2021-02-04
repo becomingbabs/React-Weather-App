@@ -13,7 +13,7 @@ export default function App() {
       <div className="footer row">
         <div className="col-10 coded-by">
           <a
-            href="https://github.com/becomingbabs/my-weather-app"
+            href="https://github.com/becomingbabs/react-weather-app"
             id="open-source-link"
             target="_blank"
             rel="noreferrer"
