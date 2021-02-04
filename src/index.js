@@ -11,7 +11,7 @@ function MyApp() {
   return (
     <div className="App">
       <div className="container">
-        <App />
+        <App/>
       </div>
     </div>
   );

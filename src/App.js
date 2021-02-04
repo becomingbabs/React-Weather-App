@@ -7,7 +7,7 @@ import Weather from "./Weather";
 export default function App() {
   return (
     <div className="Weather-App">
-      <Weather city={Weather.city} />
+      <Weather defaultCity="Santiago" />
       <hr />
 
       <div className="footer row">
