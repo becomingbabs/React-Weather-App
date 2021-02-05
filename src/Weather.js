@@ -62,9 +62,6 @@ if (weather.ready) {
             >
               Search
             </button>
-            <button className="button" id="current-button" type="submit">
-              Current Location
-            </button>
           </form>
         </div>
         <div className="col-3 img">
