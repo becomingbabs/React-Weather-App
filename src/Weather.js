@@ -22,6 +22,7 @@ export default function Weather(props) {
           wind: response.data.wind.speed,
           icon: response.data.weather[0].icon,
         });
+        setCity("");
   }
 
   function handleSubmit(event) {
@@ -52,6 +53,7 @@ if (weather.ready) {
               placeholder="Type City Here"
               autocomplete="off"
               onChange={handleChange}
+              value={city}
             />
             <br />
             <button

@@ -18,8 +18,9 @@ export default function Weatherinfo(props) {
       <div className="col-3 icon-description">
         <div id="description">
         {props.data.description}
-          {<br />}
-          < WeatherIcon code={props.data.icon} alt={props.data.description} /> 
+        </div>
+        <div id="icon">
+        < WeatherIcon code={props.data.icon} alt={props.data.description} /> 
         </div>
       </div>
       <div className="col-3 current-forecast">
