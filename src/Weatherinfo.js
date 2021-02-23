@@ -8,14 +8,14 @@ export default function Weatherinfo(props) {
     return (
         
       <div className="row current-info-row">
-      <div className="col-3 current-city">
+      <div className="col current-city">
         {props.data.city}, {props.data.country}
         <div className="date-time" id="date">
         <FormattedDate date={props.data.date} />
         </div>
           <WeatherTemp celsius={props.data.temperature}/>
       </div>
-      <div className="col-3 icon-description">
+      <div className="col icon-description">
         <div id="description">
         {props.data.description}
         </div>
@@ -23,7 +23,7 @@ export default function Weatherinfo(props) {
         < WeatherIcon code={props.data.icon} alt={props.data.description} /> 
         </div>
       </div>
-      <div className="col-3 current-forecast">
+      <div className="col current-forecast">
         <div>
           Humidity: <span id="humidity"> {props.data.humidity} </span>%
         </div>

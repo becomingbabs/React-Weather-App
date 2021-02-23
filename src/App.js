@@ -11,7 +11,7 @@ export default function App() {
       <hr />
 
       <div className="footer row">
-        <div className="col-10 coded-by">
+        <div className="col coded-by">
           <a
             href="https://github.com/becomingbabs/react-weather-app"
             id="open-source-link"
@@ -20,7 +20,7 @@ export default function App() {
           >
             Open source code{" "}
           </a>
-          by Barbara - 👩🏻‍💻 - Currently in Santiago, Chile
+          by Barbara <br/> 👩🏻‍💻 <br/>  Currently located in Santiago, Chile
         </div>
       </div>
     </div>

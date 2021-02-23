@@ -8,8 +8,8 @@ body {
 .container {
   background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
   opacity: 0.95;
-  height: 800px;
+  height: auto;
   margin: 100px auto;
   max-width: 1000px;
-  border-radius: 50px;
+  border-radius: 30px;
 }

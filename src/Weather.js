@@ -45,7 +45,7 @@ if (weather.ready) {
   return (
     <div id="weather">
       <div className="row top-row">
-        <div className="col-5 form">
+        <div className="col form">
           <form onSubmit={handleSubmit}>
             <input
               id="search-box"
@@ -66,10 +66,10 @@ if (weather.ready) {
             </button>
           </form>
         </div>
-        <div className="col-3 img">
+        <div className="col img">
           <img src="https://i.gifer.com/Iu3.gif" alt="girl in rain" />
         </div>
-        <div className="col-3 quote">
+        <div className="col quote">
           "There's no such thing as bad weather, <br />
           only inappropriate clothing."
           <br />- Sir Ranulph Fiennes
