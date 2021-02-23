@@ -23,17 +23,16 @@ hr {
 
 .form {
   text-align: center;
-  font-size: 25px;
-  word-spacing: 30px;
-  max-width: 400px;
+  font-size: 20px;
+  max-width: 350px;
   height: auto; 
   opacity: 0.8;
   margin: auto; 
 }
 
 .button {
-  font-size: 20px;
-  margin: 30px 0 0 0;
+  font-size: 15px;
+  margin: 10px auto; 
   opacity: 0.8;
   border-radius: 7px;
   transition: all 150ms ease-in-out;
@@ -66,7 +65,7 @@ hr {
 }
 
 .date-time {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .temp {
