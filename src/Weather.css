@@ -26,6 +26,7 @@ hr {
   font-size: 25px;
   word-spacing: 30px;
   max-width: 400px;
+  height: auto; 
   opacity: 0.8;
   margin: auto; 
 }
@@ -70,7 +71,8 @@ hr {
 
 .temp {
   font-size: 25px;
-  margin: 15px 0 0 0;
+  padding: 5px 0 0 0; 
+  margin: auto; 
 }
 
 .units {
@@ -98,7 +100,7 @@ hr {
   text-align: center;
   font-size: 25px;
   opacity: 0.9;
-  line-height: 2;
+  line-height: 1.5;
   margin: auto; 
 }
 
