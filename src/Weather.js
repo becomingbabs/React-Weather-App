@@ -51,7 +51,7 @@ if (weather.ready) {
               id="search-box"
               type="text"
               placeholder="Type City Here"
-              autocomplete="off"
+              autoComplete="off"
               onChange={handleChange}
               value={city}
             />
