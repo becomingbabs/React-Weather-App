@@ -67,7 +67,7 @@ if (weather.ready) {
           </form>
         </div>
         <div className="col img">
-          
+          <img src="https://i.gifer.com/Iu3.gif" alt="girl in rain" />
         </div>
         <div className="col quote">
           "There's no such thing as bad weather, <br />

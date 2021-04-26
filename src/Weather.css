@@ -1,11 +1,11 @@
 /** @format */
 
-iframe {
-  max-width: 40%; 
+img {
+  max-width: 50%; 
   height: auto; 
-  border-radius: 8px;
+  border-radius: 10px;
   display: block;
-  margin: 30px auto auto auto;  
+  margin: 10px auto auto auto;  
 }
 
 h3 {
