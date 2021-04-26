@@ -67,7 +67,7 @@ if (weather.ready) {
           </form>
         </div>
         <div className="col img">
-          <iframe src="https://gifer.com/embed/Iu3" frameBorder="0"></iframe>
+          <iframe title="A girl appreciating the rain" src="https://gifer.com/embed/Iu3" frameBorder="0"></iframe>
         </div>
         <div className="col quote">
           "There's no such thing as bad weather, <br />
