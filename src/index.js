@@ -8,9 +8,10 @@ import reportWebVitals from "./reportWebVitals";
 function MyApp() {
   return (
     <div className="App">
-      <div className="container">
+      <h1>
+        Weasley's Weather in a Bottle 
+      </h1>
         <App/>
-      </div>
     </div>
   );
 }

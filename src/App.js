@@ -6,7 +6,7 @@ import Weather from "./Weather";
 
 export default function App() {
   return (
-    <div className="Weather-App">
+    <div className="container">
       <Weather defaultCity="Santiago" />
       <hr />
 
@@ -18,9 +18,19 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Open source code{" "}
+            <strong>Open source code {" "}</strong>
           </a>
-          by Barbara <br/> 👩🏻‍💻 <br/>  Currently located in Santiago, Chile
+          by Barbara,
+          <br/>
+          inspired by {" "}  
+          <a href="https://www.wizardingworld.com/" target="_blank"
+            rel="noreferrer" >
+              Harry Potter
+          </a>
+            <br/>
+              👩🏻‍💻
+            <br/>
+              Currently located in Santiago, Chile
         </div>
       </div>
     </div>

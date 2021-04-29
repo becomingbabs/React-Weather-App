@@ -5,6 +5,7 @@ import axios from "axios";
 import "./Weather.css";
 import Weatherinfo from "./Weatherinfo";
 import WeatherForecast from "./WeatherForecast";
+import hogwarts from "./hogwarts-coat-of-arms.png"
 
 export default function Weather(props) {
   let [city, setCity] = useState(props.defaultCity);
@@ -67,12 +68,12 @@ if (weather.ready) {
           </form>
         </div>
         <div className="col img">
-          <img src="https://i.gifer.com/Iu3.gif" alt="girl in rain" />
+          <img src={hogwarts} alt="Hogwarts Coat of Arms" />
         </div>
         <div className="col quote">
-          "There's no such thing as bad weather, <br />
-          only inappropriate clothing."
-          <br />- Sir Ranulph Fiennes
+          "Autumn seemed to arrive suddenly that year.
+          The morning of 1st September was crisp and golden as an apple."
+          <br />- J.K. Rowling
         </div>
       </div>
 
