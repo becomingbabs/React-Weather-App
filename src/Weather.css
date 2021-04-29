@@ -18,7 +18,8 @@ hr {
 }
 
 .top-row {
-  height: 200px;
+  max-height: 300px;
+  padding: 20px 0; 
 }
 
 .form {
@@ -47,13 +48,14 @@ hr {
 
 .quote {
   text-align: center;
-  font-size: 20px;
+  font-size: 18px;
   opacity: 0.9;
   margin: auto; 
 }
 
 .current-info-row {
-  height: 150px;
+  max-height: 300px;
+  padding: 20px auto; 
 }
 
 .current-city {
